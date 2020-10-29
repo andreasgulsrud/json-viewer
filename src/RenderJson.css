@@ -1,0 +1,39 @@
+body,
+html {
+    margin: 20px 0 20px 20px;
+    max-width: 80vw;
+}
+
+p {
+    margin: 0;
+}
+
+.renderJson__key {
+    /* border: 1px solid orange; */
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+}
+
+.renderJson__objects-values {
+    /* background-color: lightgray; */
+    list-style: none;
+    
+    padding: 0;
+}
+
+.renderJson__object {
+    color: rgb(99, 99, 99);
+    font-weight: 500;
+    margin: 0 0 0 10px;
+    background-color: #eff7fa;
+}
+
+.renderJson__value {
+    border: 1px solid green;
+    color: rgb(99, 99, 99);
+    background-color: #deeff5;
+    margin: 0 0 15px 15px;
+    font-size: 20px;
+    font-style: italic;
+}
